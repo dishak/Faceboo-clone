@@ -1,0 +1,75 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-color: rgba(56, 88,153, 1);
+    height: 100vh;
+    width: 100vw;
+        /* border: 2px solid red; */
+  
+}
+header img
+{
+  
+    width: 60%;
+    height: auto;
+    /* border: 2px solid red; */
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+header .navbar
+{
+    position: relative;
+    left: 5.1rem;
+     /* border: 2px solid red; */
+     width: 55%;
+     height: 30%;
+ 
+}
+
+.navbar span
+{
+    display: none;
+}
+
+.navbar #email-phone
+{
+    position: relative;
+    right: .5rem;
+    top: -1.5rem;
+    height: 2.3rem;
+    width: 110%;
+   background-color: white;
+   border: none;
+   border-bottom: 1px solid gray;
+   border-radius: 3px;
+
+}
+.navbar #password
+{
+    position: relative;
+    top: -3rem;
+    left: 2.5rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 3px;
+    width: 110%;
+}
+
+.navbar #Login
+{
+    position: relative;
+    top: -4.2rem;
+    left: -2rem;
+    height: 2.3rem;
+    border: none;
+    border-radius: 3px;
+    width: 113%;
+    background-color: rgba(79, 105,162, 1); 
+}

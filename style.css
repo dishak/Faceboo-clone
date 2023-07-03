@@ -1,0 +1,65 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Start of  Header Styling */
+header
+{
+    /* border: 2px solid red; */
+    position: sticky;
+    top: 0;
+    background-color: rgba(56, 88,153, 1); 
+    width: 100vw;
+    height: 10vh;
+}
+
+header img
+{
+    height: 8vh;
+    width: 10%;
+    padding-top: .5rem;
+    margin-left: 10rem;
+}
+header .navbar
+{
+    height: 100%;
+    float: right;
+    margin-right: 10rem;
+    margin-top: .5rem;
+    /* border: 2px solid rgb(8, 8, 8); */
+}
+.navbar #Email-Phone-text
+{
+    position: relative;
+    top: -1.5rem;
+    left: 6.5rem;
+    color: white;
+    
+}
+.navbar #password-text
+{
+    position: relative;
+    top: -1.5rem;
+    left: 1rem;
+    color: white;
+}
+.navbar #email-phone,#password,#Login
+{
+    margin-top: 1.5rem;
+}
+.navbar #password
+{
+    margin-left: -3rem;
+}
+.navbar #Login
+{
+    margin-left: 1.5rem;
+    background-color: #6464e6;
+    color: white;
+    cursor: pointer;
+}
+
+/* End of Header Styling */
